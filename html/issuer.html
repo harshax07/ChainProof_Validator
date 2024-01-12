@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Issuer Page</title>
+    <link rel="stylesheet" href="../css/issuer-style.css">
+</head>
+<body>
+    <nav>
+        <h1>CHAIN PROOF VALIDATOR</h1>
+        <p class="subtitle">Unleashing Trust, Securing Futures</p>
+    </nav>
+    <h2>Upload Document</h2>
+    <div class="issuer-container">
+        <p>Logged in as the issuer [Presidency University] </p>
+        <label for="uName">Enter Certificate Holder Name  :</label>
+        <input type="text" id="uName" class="uName" name="uName" required>
+        <div class="upload-box" id="uploadBox">
+            <p id="fileList">Drag and drop files here or click to Browse</p>
+            <input type="file" id="fileInput" accept=".pdf, .jpg, .png" multiple>
+           
+        </div>
+        <button onclick="uploadFiles()">Upload</button>
+        <p id="message" class="message"> </p>
+        <p id="hashID" style="font-size: small;"> </p>
+    </div>
+
+    <script src="../js/issuer.js"></script>
+</body>
+</html>

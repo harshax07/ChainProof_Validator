@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tourney&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&family=Tourney&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Tourney&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+body {
+    font-family: 'Audiowide', sans-serif;
+    display: flex;
+    background: linear-gradient(to bottom, #000428, #000000);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    flex-direction: column;
+    color: white;
+}
+
+
+h1{
+    font-size: 60px;
+    margin-bottom: 0;
+}
+
+
+/* Style for the subtitle */
+nav p.subtitle {
+    font-size: 15px;
+    margin-bottom: 10px; /* Add space between the main heading and subtitle */
+    font-family: 'Rubik Mono One', monospace;
+    
+}
+
+
+
+nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-family: 'Tourney', sans-serif;
+    /* color: #68fd1e; */
+}
+
+.issuer-container {
+    width: 1000px;
+    padding: 20px;
+    border: 1px solid #ffffff;
+    border-radius: 8px;
+    text-align: center;
+    margin-top: 1%;
+    height: 500px;
+}
+
+.upload-box {
+    border: 2px dashed #fff;
+    padding: 90px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.upload-box:hover {
+    background-color: #242921;
+}
+
+#fileInput {
+    display: none;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #002ead;
+    color: #ffffff;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+.message {
+    font-size: medium; 
+    color: #68fd1e;
+    animation: blink 2s infinite;
+}
+
+
+.info{
+    font-family:  'Merriweather', serif;
+}
+
+@keyframes blink {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+.fileHash {
+    color: #68fd1e;
+    font-size: 17px;
+    font-family: 'Silkscreen', sans-serif;
+  }
+  
